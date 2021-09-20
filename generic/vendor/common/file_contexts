@@ -36,7 +36,6 @@
 /dev/ipa                                        u:object_r:vendor_ipa_dev:s0
 /dev/wwan_ioctl                                 u:object_r:vendor_ipa_dev:s0
 /dev/ipaNatTable                                u:object_r:vendor_ipa_dev:s0
-/dev/cpu_dma_latency                            u:object_r:vendor_latency_device:s0
 /dev/dpl_ctrl                                   u:object_r:vendor_rmnet_device:s0
 /dev/rmnet_ctrl.*                               u:object_r:vendor_rmnet_device:s0
 /dev/at_.*                                      u:object_r:vendor_at_device:s0
@@ -91,7 +90,6 @@
 /dev/socket/qti_dpm_uds_file                    u:object_r:vendor_dataqti_socket:s0
 /dev/socket/location(/.*)?                      u:object_r:vendor_location_socket:s0
 /dev/socket/wifihal(/.*)?                       u:object_r:vendor_wifihal_socket:s0
-/dev/socket/pps                                 u:object_r:vendor_pps_socket:s0
 /dev/nq-nci                                     u:object_r:nfc_device:s0
 /dev/ttyHS0                                     u:object_r:hci_attach_dev:s0
 /dev/wlan                                       u:object_r:vendor_wlan_device:s0
